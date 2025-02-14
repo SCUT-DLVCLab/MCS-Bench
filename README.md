@@ -31,3 +31,40 @@ Figure 2: Data examples from MCS-Bench.
 ## Data Acquisition Method
 
 The MCS-Bench dataset is only available for non-commercial research purposes. Scholars or organizations interested in using the MCS-Bench dataset are required to fill out this [application form](Application_Form_for_Using_MCS-Bench.docx) and send it to us via email. When submitting the application form, please list or attach 1-2 papers you have published in the past 6 years to demonstrate that you (or your team) are conducting research in the field of ancient texts. Once we receive and approve your application, we will provide a download link and extraction password. All users must comply with the usage terms; failure to do so will result in the revocation of authorization.
+
+## Inference
+
+Calculate metrics based on the output of LLMs:
+```
+python calculate_metrics.py
+```
+
+## Evaluation Metrics
+
+<div align="center">
+Table 1: Results of 37 MLLMs on MCS-Bench. “MCQ” represents “Multiple-Choice Questions”; “QA” represents “open-ended Q&A”. Each score is the average of metrics across all corresponding tasks. Bold represents the best results, while underline represents the second best.
+</div>
+
+<div align="center">
+  <img src="images/table1.png" width="70%" />
+</div>
+
+<div align="center">
+Table 2: Results of 37 MLLMs and 3 OCR models across six OCR tasks. Different colors represent different subdomains, with the color-domain mapping provided in Figure 1. In addition to CR, we also provide the F1-Score
+metric. “Average” represents the average metric of 37 MLLMs. Bold represents the best results, while underline represents the second best.
+</div>
+
+<div align="center">
+  <img src="images/table2.png" width="70%" />
+</div>
+
+## License
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+The work is licensed under a [MIT License](https://lbesson.mit-license.org/).
+
+![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)
+
+The dataset is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
