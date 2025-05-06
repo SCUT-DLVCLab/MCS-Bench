@@ -30,7 +30,7 @@ Figure 2: Data examples from MCS-Bench.
 
 ## Data Acquisition Method
 
-The MCS-Bench dataset is only available for non-commercial research purposes. Scholars or organizations interested in using the MCS-Bench dataset are required to fill out this [application form](Application_Form_for_Using_MCS-Bench.docx) and send it to us via email. When submitting the application form, please list or attach 1-2 papers you have published in the past 6 years to demonstrate that you (or your team) are conducting research in the field of ancient texts. Once we receive and approve your application, we will provide a download link and extraction password. All users must comply with the usage terms; failure to do so will result in the revocation of authorization.
+The MCS-Bench dataset is only available for non-commercial research purposes. Scholars or organizations interested in using the MCS-Bench dataset are required to fill out this [application form](Application_Form_for_Using_MCS-Bench.docx) and send it to us via email. When submitting the application form, please list or attach 1-2 papers you have published in the past 6 years to demonstrate that you (or your team) are conducting research in the field of Classical Chinese Studies. Once we receive and approve your application, we will provide a download link and extraction password. All users must comply with the usage terms; failure to do so will result in the revocation of authorization.
 
 ## Inference
 
